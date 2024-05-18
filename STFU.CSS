@@ -1,0 +1,154 @@
+
+
+html,body {
+  height: 120%;
+   
+  background-image:linear-gradient(to bottom, rgb(143, 8, 143), black) ;
+    }
+   html, body {
+      margin: 0;
+      padding: 0;
+ 
+      
+    }
+
+  
+*{
+margin: 0;
+padding: 0;
+
+}
+
+section{
+
+height: 100vh;
+background-position: left;
+background-size: cover;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+ ul{
+  text-align: center;
+ }
+ ul li{
+  list-style: none;
+  margin: 15px 0;
+ }
+ ul:hover li a{
+  opacity: 0;
+ }
+ ul li a{ 
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font: size 20px; 
+  font-weight: 500;
+  letter-spacing: 3px;
+  background: black;
+  padding: 8px 19px;
+  border-radius: 29px;
+  display: inline-block;
+width: 100px;
+transition: 0.8s;
+text-transform: uppercase;
+position: relative;
+z-index: 5;
+ }
+ ul li a:hover{
+transform: scale(1.5);
+background: rgb(143, 12, 143);
+opacity: 2;
+
+ }
+
+ ul li:after{
+  content: attr(data-text);
+  color: #ffffff;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 60px;
+  font-weight: 900;
+  text-transform: uppercase;
+  opacity: 0;
+pointer-events: none;
+letter-spacing: 10px;
+transition: 1.5;
+ }
+ ul li:hover::after{
+  opacity: 0.5;
+  letter-spacing: 6px;
+ }
+
+div{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+ 
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .banner {
+    background-image:linear-gradient(to bottom, rgba(255, 255, 255, 0.416), rgba(0, 0, 0, 0.687)) ;
+    color: #00000000;
+    padding: 25px 30px;
+    
+    
+     
+    
+    
+      
+    
+    
+    text-align: center;
+      
+    
+  
+  
+}
+
+.button {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  padding: 10px 20px;
+  background-color: #6a0dad;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+html, body {
+  width: 100%; /* جعل العرض يمتد ليغطي الشاشة بالكامل */
+  height: 100%; /* جعل الطول يمتد ليغطي الشاشة بالكامل */
+  margin: 0; /* إزالة الهوامش الافتراضية */
+  padding: 0; /* إزالة التباعد الافتراضي */
+}
+
+
+.logo {
+  position: fixed; /* تحديد وضعية الكلمة */
+  top: 8px; /* تحديد المسافة من الأعلى */
+  left: 10px; /* تحديد المسافة من اليسار */
+  font-size: 28px; /* تحديد حجم النص */
+  font-weight: bold; /* جعل النص عريضًا */
+  color: rgba(0, 0, 0, 0.483); /* تحديد لون النص */
+  text-decoration: none; /* إزالة التأثيرات الافتراضية للرابط */
+}
+
+.logo:hover {
+  color: rgb(255, 255, 255); /* تغيير لون النص عند التحويم بالماوس */
+  transition: 0.5s;
+}
+
+
+
+
+
+
+
+
